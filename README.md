@@ -1,4 +1,8 @@
 # confkit
+> **Note** This repository is primarily for easy access to the source code for alteration.
+> The readme below is identical to that of the crates.io page, but without the cargo docs,
+> For actual use or learning the library, I encourage you to check out the main page here:
+> https://crates.io/crates/confkit
 
 Confkit is an opinionated Rust library for easily creating and loading TOML configuration files with minimal boilerplate.
 
