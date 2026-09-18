@@ -1,0 +1,19 @@
+[package]
+name = "confkit"
+version = "0.1.0"
+edition = "2024"
+description = "An opinionated library for easily creating and loading TOML configuration files."
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+keywords = ["config", "configuration", "toml", "settings"]
+categories = ["config"]
+
+[dependencies]
+xdg = "3.0.0"
+confkit-derive = { version = "0.1.0", path = "confkit_derive" }
+serde = { version = "1.0.229", features = ["serde_derive"] }
+toml_edit = { version = "0.25.15", features = ["serde", "parse"] }
+
+[dev-dependencies]
+serial_test = "4.0.1"
+tempfile = "3.27.0"

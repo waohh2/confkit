@@ -1,0 +1,16 @@
+[package]
+name = "confkit_derive"
+version = "0.1.0"
+edition = "2024"
+description = "A derive macro for the Confkit configuration library."
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+
+
+[lib]
+proc-macro = true
+
+[dependencies]
+quote = "1.0.47"
+serde = { version = "1.0.229", features = ["serde_derive"] }
+syn = { version = "3.0.4", features = ["full"] }
